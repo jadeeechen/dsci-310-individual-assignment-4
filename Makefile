@@ -18,8 +18,8 @@ results/horse_pop_plot_largest_sd.png results/horse_pops_plot.png results/horses
 reports/qmd_example.html: results reports/qmd_example.qmd
 	quarto render reports/qmd_example.qmd --to html
 
-reports/index.html: results reports/qmd_example.qmd
-	quarto render reports/qmd_example.qmd --output index.html
+docs/index.html: results reports/qmd_example.qmd
+	quarto render reports/qmd_example.qmd --output-dir docs --output index.html
 
 reports/qmd_example.pdf: results reports/qmd_example.qmd
 	quarto render reports/qmd_example.qmd --to pdf
