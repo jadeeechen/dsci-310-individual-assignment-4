@@ -1,8 +1,9 @@
 ---
 title: "DSCI 310: Historical Horse Population in Canada"
-author: "Tiffany Timbers & Jordan Bourak"
+author: "Jade Chen"
 format:
   html:
+    number-sections: true
     embed-resources: true
 editor: source
 toc: true
